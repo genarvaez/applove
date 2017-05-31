@@ -6,6 +6,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 *:before,
@@ -13,6 +14,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 
 body {
@@ -101,4 +103,14 @@ footer{
   background-color: #373b47;
   color: white;
   padding-top: 7px;
+}
+#work .conteiner{
+  padding-top: 60px;
+}
+#work .conteiner h1 {
+  font-size: 2em;
+  padding: 30px;
+}
+#work .conteiner p{
+  padding: 50px 100px;
 }
