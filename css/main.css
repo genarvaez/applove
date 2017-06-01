@@ -105,7 +105,7 @@ footer{
   padding-top: 7px;
 }
 #work .conteiner{
-  padding-top: 60px;
+  padding: 60px;
 }
 #work .conteiner h1 {
   font-size: 2em;
@@ -113,4 +113,42 @@ footer{
 }
 #work .conteiner p{
   padding: 50px 100px;
+}
+.box-services.size img{
+  width: 100%;
+  padding: 30px;
+  cursor: pointer;
+}
+#box-work-modal{
+  background-color: rgba(0, 144, 104, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.background-modal{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 60%;
+  height: 500px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 100px;
+  border: 15px solid white;
+}
+#close{
+  position: relative;
+  bottom: 560px;
+  left: 340px;
+  cursor: pointer;
+  width: 40px;
+}
+.background-modal img{
+  width: 100%;
+  position: relative;
+  bottom: 90px;
+}
+.hide{
+  display: none;
 }
