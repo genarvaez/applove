@@ -152,3 +152,6 @@ footer{
 .hide{
   display: none;
 }
+.conteiner.center{
+  text-align: center;
+}
