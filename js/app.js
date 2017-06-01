@@ -3,6 +3,7 @@
 	var modal = document.getElementById("box-work-modal"); //importo el espacio donde irá en el html, el modal
 	box.forEach(function(e){ //inicio un recorrido a mi arreglo de elementos
 		e.addEventListener("click",function(){ //agrego un evento para cada uno de mis elementos
+			modal.innerHTML = "";
 			var bgModal = document.createElement("div"); //creo mi BG del modal
 			bgModal.classList.add("background-modal"); //le añado su clase correspondiente
 			bgModal.innerHTML = e.innerHTML; //le asigno lo que va a imprimir
